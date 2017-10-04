@@ -1,0 +1,22 @@
+{
+    "name": "emullaraj/amazon-mws-sellers",
+    "type": "library",
+    "description": "Amazon Marketplace Web Service Sellers PHP Client Library",
+    "keywords": ["amazon", "mws", "sellers", "client", "api", "library"],
+    "homepage": "https://developer.amazonservices.com/",
+    "licence": "Apache-2.0",
+    "authors": [
+        {
+          "name": "Eno Mullraj",
+          "email": "emullaraj@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "include-path": ["src/"]
+}
