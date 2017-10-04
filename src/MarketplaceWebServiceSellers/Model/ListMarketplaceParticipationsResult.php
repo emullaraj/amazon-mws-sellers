@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ListParticipations property.
      *
-     * @return MarketplaceWebServiceSellers_Model_Participation [] ListParticipations.
+     * @return MarketplaceWebServiceSellers_Model_ListParticipations ListParticipations.
      */
     public function getListParticipations()
     {

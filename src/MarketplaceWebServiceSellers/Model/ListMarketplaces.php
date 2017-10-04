@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Marketplace property.
      *
-     * @return List<Marketplace> Marketplace.
+     * @return MarketplaceWebServiceSellers_Model_Marketplace[] Marketplace.
      */
     public function getMarketplace()
     {
