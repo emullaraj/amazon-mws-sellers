@@ -458,6 +458,9 @@ class MarketplaceWebServiceSellers_Client implements MarketplaceWebServiceSeller
         curl_setopt($ch, CURLOPT_HTTPHEADER, $allHeadersStr);
         curl_setopt($ch, CURLOPT_HEADER, true); 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 15); 
+        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+        
         if ($config['ProxyHost'] != null && $config['ProxyPort'] != -1)
         {
             curl_setopt($ch, CURLOPT_PROXY, $config['ProxyHost'] . ':' . $config['ProxyPort']);
